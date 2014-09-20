@@ -1,5 +1,5 @@
-.divContainerOne{
-	max-width: 100%;
+.main-container{
+	width: 100%;
 	height: 580px;
 	margin-left: auto;
 	margin-right: auto;
@@ -7,23 +7,258 @@
 	background-position: 20% 20%;
 	background-size: 100% auto;
 	background-repeat: no-repeat;
+
 }
 
-.divContainerTwo{
-	max-width: 60%;
-	height: auto;
-	position: relative;
-	margin: auto;
-	padding-left: auto;
-	padding-right: auto;
-	padding-top: 1px;
+.heading-container{
+	width: 970px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.headingReact{
-	font-weight: bold;
-	font-size: 30px;
+.logo{
+	float: left;
+	width: 40%;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 26px;
+	color: #fff;
+	font-family: Lato, 'Helvetica Neue', Arial;
+	font-weight: 500;
+	padding-top: 15px;
+
 }
 
-.inlineBlock{
+.main-menu{
+	float: right;
+	width: 60%;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5px;
+
+}
+
+.content-container{
+	width: 1200px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: 90px;
+	margin-top: 60px;
+	background-image: url('http://lit-coast-9918.herokuapp.com/react12/images/static-hero.png');
+	background-repeat: no-repeat;
+	background-position: 100% 0%;
+
+}
+
+.empty{
+	width: auto;
+	margin: 50px 0px 50px 01px;
+}
+
+.content-container-heading{
+	font-family: "Lato", "Helvetica Neue", Arial;
+	font-size: 37px;
+	color: #fff;
+	letter-spacing: .3px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+	font-weight: 100;
+	line-height: 50px;
+	
+
+}
+
+.content-container-subheading{
+	font-family: "Lato", "Helvetica Neue", Arial;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	color: #fff;
+
+}
+
+
+.see-the-tour{
 	display: inline-block;
+	border: solid #fff;
+	border-width: 3px;
+	border-radius: 4px;
+	font-size: 16px;
+	font-weight: 400;
+	background-color: transparent;
+	margin-right: 55px;
+	color: #fff;
+}
+
+.sign-up-free{
+	display: inline-block;
+	border: 15px solid blue;
+	background-color: blue;
+	border-radius: 4px;
+	color: #fff;
+
+}
+
+.main-container-2{
+	width: 100%;
+	height: 530px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.heading-container-2{
+	width: 600px;
+	height: 30px;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	
+
+}
+
+.heading-2{
+	color: #555;
+	font-weight: 300;
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+.sub-heading-2{
+	font-weight: 300;
+	font-size: 17px;
+	color: #757575;
+	margin-top: -10px;
+}
+
+.content-container-2{
+	width: 900px;
+	height: 300px;
+	margin-right: 350px;
+	margin-left: auto;
+	margin-top: 100px;
+	background-image: url('http://lit-coast-9918.herokuapp.com/react12/images/feature1.png');
+	background-repeat: no-repeat;
+	background-position: 100% 0%;
+}
+
+.content-heading{
+	color: #3B88B6;
+	font-weight: normal;
+	font-size: 19px;
+	line-height: 25px;
+	margin-top: 20px;
+	padding-top: 30px;
+}
+
+.content{
+	color: #6C7279;
+	font-size: 14px;
+	margin-top: 20px;
+	line-height: 24px;
+	width: 83%;
+	font-weight: normal;
+}
+
+.content-container-left{
+	width: 400px;
+	height: 300px;
+	margin-right: auto;
+	margin-left: 380px;
+	background-image: url('http://lit-coast-9918.herokuapp.com/react12/images/feature2.png');
+	background-repeat: no-repeat;
+	background-position: 100% 0% 0%;
+
+}
+
+.content-container-right{
+	width: 430px;
+	height: 270px;
+	margin-right: 340px;
+	margin-left: auto;
+	margin-top: -300px;
+	text-align: left;
+
+}
+
+.heading-3{
+	color: #3B88B6;
+	font-weight: normal;
+	font-size: 19px;
+	line-height: 25px;
+	margin-top: 35px;
+}
+
+.content-2{
+	color: #6C7279;
+	font-size: 14px;
+	margin-top: 20px;
+	line-height: 24px;
+	width: 85%;
+	font-weight: normal;
+}
+
+.main-container-3{
+	width: 100%;
+	height: 600px;
+	background-color: #355069;
+}
+
+.heading-container-3{
+	margin-right: auto;
+	margin-left: auto;
+	width: 600px;
+	height: 200px;
+	padding-top: 30px;
+}
+
+.heading-4{
+	font-size: 29px;
+	color: #fff;
+	line-height: 25px;
+	font-weight: 400;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.content-3{
+	font-size: 16px;
+	margin-top: 15px;
+	color: #F0F0F0;
+	font-weight: 500;
+	line-height: 25px;
+	text-shadow: 1px 2px rgba(0, 0, 0, 0.2);
+	margin-top: -20px;
+	margin-left: 180px;
+}
+	
+}
+
+ul{
+	list-style-type: none;
+}
+
+ul li{
+	display: inline;
+	color: #fff;
+	padding: 0 25px 0 0;
+	font-size: 15px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 600;
+
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+ul li a:hover{
+	color: #000;
+}
+
+ul li span{
+	font-size: .5rem;
 }
