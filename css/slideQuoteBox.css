@@ -1,0 +1,12 @@
+.slideQuoteBox{
+	font-size: 13px;
+	color: #3D3D3D;
+	line-height: 24px;
+	border: 1px solid #E2E2E2;
+	padding: 12px 22px;
+	border-radius: 6px;
+	width: 90%;
+	position: relative;
+	background-color: green;
+	margin-top: 100px;
+}

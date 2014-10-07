@@ -1,0 +1,24 @@
+#slideTwo{
+
+}
+
+#slideTwo article{
+	min-height: 850px;
+	background-color: white;
+	margin-top: 100px;
+
+}
+
+#slideTwo article h2{
+	color: #555;
+	font-weight: 300;
+	font-size: 28px;
+}
+
+#slideTwo article p{
+	font-weight: 300;
+	font-size: 17px;
+	color: #757575;
+	text-align: center;
+	margin-top: -10px;
+}

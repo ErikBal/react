@@ -1,0 +1,45 @@
+
+#slideOne{
+	background-image: url('http://farm9.staticflickr.com/8222/8254861601_1fbf969a14_b.jpg');
+	background-position: 20% 20%;
+	background-size: 100% auto;
+	height: 580px;
+
+}
+
+#slideOne article{
+	min-height: 700px
+}
+
+#slideOne article section{
+	width: 100%;
+	float: left;
+}
+
+#slideOne article section article{
+	width: 50%;
+	float: left;
+}
+
+#slideOne article section article h2{
+	font-size: 2rem;
+	text-align: center;
+}
+
+#slideOne article section article p{
+	font-size: 1.5rem;
+	text-align: left;
+}
+
+
+#slideOne article section article + article{
+	width: 50%;
+	float: left;
+}
+
+#slideOne article section article + article img{
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+}
+

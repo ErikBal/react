@@ -1,0 +1,14 @@
+.slides{
+	width: 100%;
+	float: left;
+}
+
+.slides article{
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.slides article h2{
+	text-align: center;
+}
